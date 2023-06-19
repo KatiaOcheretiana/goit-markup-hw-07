@@ -19,6 +19,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <!-- Top line -->
@@ -56,6 +57,11 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open-btn btn js-open-menu">
+          <svg class="menu-btn-icon" width="29.5" height="18.6">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -131,6 +137,10 @@
           <ul class="work-list list">
             <li class="work-item">
               <img
+                srcset="
+                  ./images/what_are_we_doing_1.jpg    1x,
+                  ./images/what_are_we_doing_1_2x.jpg 2x
+                "
                 src="./images/what_are_we_doing_1.jpg"
                 alt="The program is displayed on the monitor"
                 width="360"
@@ -138,6 +148,10 @@
             </li>
             <li class="work-item">
               <img
+                srcset="
+                  ./images/what_are_we_doing_2.jpg    1x,
+                  ./images/what_are_we_doing_2_2x.jpg 2x
+                "
                 src="./images/what_are_we_doing_2.jpg"
                 alt="Design of pages on the phone"
                 width="360"
@@ -145,6 +159,10 @@
             </li>
             <li class="work-item">
               <img
+                srcset="
+                  ./images/what_are_we_doing_3.jpg    1x,
+                  ./images/what_are_we_doing_3_2x.jpg 2x
+                "
                 src="./images/what_are_we_doing_3.jpg"
                 alt="Phone with open site design tab on laptop background"
                 width="360"
@@ -160,6 +178,10 @@
           <ul class="team-list list">
             <li class="team-item">
               <img
+                srcset="
+                  ./images/our_team_1.jpg    1x,
+                  ./images/our_team_1_2x.jpg 2x
+                "
                 src="./images/our_team_1.jpg"
                 alt="Photo of the employee"
                 width="264"
@@ -222,6 +244,10 @@
             </li>
             <li class="team-item">
               <img
+                srcset="
+                  ./images/our_team_2.jpg    1x,
+                  ./images/our_team_2_2x.jpg 2x
+                "
                 src="./images/our_team_2.jpg"
                 alt="Photo of the employee"
                 width="264"
@@ -283,6 +309,10 @@
             </li>
             <li class="team-item">
               <img
+                srcset="
+                  ./images/our_team_3.jpg    1x,
+                  ./images/our_team_3_2x.jpg 2x
+                "
                 src="./images/our_team_3.jpg"
                 alt="Photo of the employee"
                 width="264"
@@ -344,6 +374,10 @@
             </li>
             <li class="team-item">
               <img
+                srcset="
+                  ./images/our_team_4.jpg    1x,
+                  ./images/our_team_4_2x.jpg 2x
+                "
                 src="./images/our_team_4.jpg"
                 alt="Photo of the employee"
                 width="264"
@@ -572,6 +606,93 @@
         </div>
       </div>
     </footer>
+    <!-- MOB-MENU -->
+    <div class="mob-menu js-menu-container">
+      <button type="button" class="menu-btn-close js-close-menu">
+        <svg class="menu-btn-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-btn-close"></use>
+        </svg>
+      </button>
+      <ul class="mob-menu-list list">
+        <li class="mob-menu-item">
+          <a class="mob-menu-link link current" href="./index.html">Studio</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-link link" href="">Contacts</a>
+        </li>
+      </ul>
+      <address class="menu-address">
+        <ul class="mob-menu-address list">
+          <li class="mob-menu-tel-item">
+            <a class="mob-menu-tel-link link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mob-menu-address-item">
+            <a
+              class="mob-menu-address-link link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <div class="menu-soc">
+        <ul class="footer-soc-list list">
+          <li class="footer-soc-item">
+            <a
+              href=""
+              class="footer-soc-link link"
+              target="_blank"
+              rel="noopener no-referrer"
+            >
+              <svg class="footer-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              href=""
+              class="footer-soc-link link"
+              target="_blank"
+              rel="noopener no-referrer"
+            >
+              <svg class="footer-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              href=""
+              class="footer-soc-link link"
+              target="_blank"
+              rel="noopener no-referrer"
+            >
+              <svg class="footer-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              href=""
+              class="footer-soc-link link"
+              target="_blank"
+              rel="noopener no-referrer"
+            >
+              <svg class="footer-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <!-- MODAL VIEW -->
     <div class="backdrop is-hidden" data-modal>
@@ -658,5 +779,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
