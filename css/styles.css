@@ -32,6 +32,10 @@ ol {
   padding: 0;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 img {
   display: block;
   width: 100%;
