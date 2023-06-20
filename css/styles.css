@@ -717,6 +717,7 @@ img {
   justify-content: space-between;
   height: 100%;
   max-width: 358px;
+  gap: 40px;
 }
 
 .mob-menu-list {
