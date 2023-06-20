@@ -2,6 +2,11 @@
   .container {
     max-width: 396px;
   }
+
+  .mob-menu-tel-link {
+    font-size: 36px;
+  }
+
   .hero {
     max-width: 768px;
     height: 436px;
@@ -23,6 +28,10 @@
         ),
         url(../images/decoration_elements/hero_tab_2x.jpg);
     }
+  }
+
+  .title-text {
+    font-size: 20px;
   }
 }
 
