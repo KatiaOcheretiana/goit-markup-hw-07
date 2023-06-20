@@ -38,9 +38,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-.no-scroll {
-  overflow: hidden;
-}
 
 .container {
   width: 100%;
@@ -668,6 +665,8 @@ img {
   justify-content: space-between;
 
   padding: 80px 35px 40px 40px;
+
+  overflow: auto;
 }
 
 .mob-menu.is-open {
